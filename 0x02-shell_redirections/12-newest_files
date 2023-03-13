@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 0 -type f -mtime -30 -l -ls | tail -n 10
+find . -maxdepth 0 -type f -mtime -30 -l -lsr | head -n 10
