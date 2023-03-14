@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d -minpath 1 $PATH | wc -l
+echo $PATH | tr ':' '\n' | wc -l
